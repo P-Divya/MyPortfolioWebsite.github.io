@@ -1,0 +1,301 @@
+<!-- HELLO
+-
+DevFolio is a minimal, clean, lightweight and fully responsive template for Devlopers!
+Created by Anil Seervi.
+-
+GitHub repo: https://github.com/AnilSeervi/DevFolio
+README: https://github.com/AnilSeervi/DevFolio/blob/master/README.md
+-
+Have fun creating your portfolio on this template!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Title: add your Portfolio websites's title here -->
+    <title> Divya Pragadaraju | Developer</title>
+
+    <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
+    <meta name="Python  HTML CSS MYsql" content="[DivyaP], [Divya P], skill" />
+
+    <!-- Improve your SEO by adding a small descrption of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <!-- Add a your png Logo to the assets folder and change the href attr accordingly  -->
+    <link rel="icon" type="image/png" href="./assets/devfolio-logo1.png" />
+
+    <!-- Add your primary-theme color for the value of content -->
+    <meta name="theme-color" content="lightgreen" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <!-- Fill content with the URL of this portfolio you'll host -->
+    <meta property="og:url" content="https://devfolio.js.org/" />
+    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
+    <meta property="og:title" content="[Divya P] | Developer" />
+   
+    <meta property="og:description" content="Made using DevFolio Template" />
+  
+    <meta
+      property="og:image"
+      content="https://devfolio.js.org/assets/devfolio.png"
+    />
+
+    <!-- link tags -->
+    <link rel="preload" as="style" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- FontAwesome Icons link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer src="./javascript/scrollreveal.min.js"></script>
+    <script
+      defer
+      type="text/javascript"
+      src="./javascript/scrollveal.js"
+    ></script>
+
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div id="hero">
+      <section class="container">
+        <h1 class="hero-title">
+          Hello, my name is <span class="text-color-main name">Divya Pragadaraju</span>
+          <br />
+          <h2 class="alignleft">welcome to my Portfolio Website !!</h2> 
+        </h1>
+        <p class="hero-cta">
+          <a class="cta-btn cta-btn--hero" href="#contact">Get in touch</a>
+        </p>
+      </section>
+      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
+        <div class="scroll-down"></div
+      ></a>
+    </div>
+    <!-- /END Hero Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="row about-wrapper">
+          <div class="about-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/Profile_pic.jpeg"
+              alt="Profile Image"
+              width="350"
+              height="350"
+              
+              />
+          </div>
+          <div class="about-wrapper__info">
+            <p class="about-wrapper__info-text">
+              As a recent Computer Science graduate with a Master's degree from the University of Colorado Boulder, I am deeply committed to expanding my knowledge and expertise in the field of Computer Science. Being a tech enthusiast, I enjoy working with trending and on-demand technologies like Machine Learning and Deep Learning. I strongly believe in building applications that can simplify life's complexities and make day-to-day mundane activities easier. With experience in mobile app development and deep learning, I am equipped with the skills to create innovative solutions. 
+             </p>
+              <p class="about-wrapper__info-text">
+                Apart from my technical expertise, I also have a creative personality, honed through my hobbies of sketching and painting, which allows me to pay keen attention to details in my work. With a strong passion for technology and a dedication to excellence, I am committed to making a positive impact in the field of software engineering.
+              </p>
+
+            <span class="about-wrapper__cta">
+              <a href="https://p-divya.github.io/P-Divya-resume.github.io/" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!--Projects Section-->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Electronic Assistant for Prescription Drugs</h3>
+              <p class="project-wrapper__text-info">
+                Our project aims to simplify the process of purchasing medicines by providing a distributed and scalable service, eliminating the need for consumers to make multiple trips to various stores to check for medicine availability. The process involves the patient uploading their prescription, from which we extract the medicine details using an OCR API and generate a list of prescribed medicines. We then search our database containing inventory details of various pharmacies to check for availability and return the optimal number of pharmacies required to obtain all the necessary medicines. 
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/P-Divya/Drug-Dealer-DCSC"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source code</a
+                >
+               
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project1.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Boulder Apartment Finder</h3>
+              <p class="project-wrapper__text-info">
+                The project aims to develop a comprehensive website that enables users to check the availability of apartments in Boulder, similar to popular websites such as Zillow, apartmentList, or our own ralphieList. The objective is to gain end-to-end experience in designing and maintaining a website. The website will allow users to view apartment details, reserve a visit at a preferred time, and make a decision whether to rent the apartment or not. Users will have the option to cancel their visit reservation on the portal. Post-visit, the website will also provide a feature for users to leave reviews about the apartment, which will be subjected to sentiment analysis to determine a dynamic rating for the apartment
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/P-Divya/ApartmentFinder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >source code</a
+                >
+                
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="https://github.com/P-Divya/ApartmentFinder" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/logo.png"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+
+          <!-- Each .row is a project -->
+          <article class="row">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Analysis of Crime in Denver</h3>
+              <p class="project-wrapper__text-info">
+                The project "Denver Crime Analysis" aims to analyze the nature and frequency of crimes in the city and its surroundings. The increasing rate of crimes is a major concern among citizens, and it is believed that the victims suffer psychological and social trauma for a long time, even after their physical injuries have healed. By working on this dataset, we can gain insights into the types of crimes, their locations and timing. This information can be used to develop preventive measures and improve law enforcement by the government to protect the people from becoming victims of heinous crimes.
+              </p>
+              <div class="project-wrapper__text-btns">
+                <a
+                  href="https://github.com/P-Divya/CrimeAnalysisInDenver/tree/main"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="cta-btn cta-btn--hero cta-btn--projects"
+                  >Source Code</a
+                >
+                <!--<a href="#" target="_blank" class="cta-btn text-color-main"
+                  >Source Code</a
+                >--> 
+              </div>
+            </div>
+
+            <div class="project-wrapper__image">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div class="thumbnail rounded">
+                  <img
+                    src="./assets/project3.jpeg"
+                    class="img-fluid"
+                    alt="Project Image"
+                    width="1366"
+                    height="767"
+                  />
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper">
+          <p class="contact-wrapper__text">Lets get in touch...</p>
+          <a href="mailto:sapr6102@colorado.edu" class="cta-btn cta-btn--resume"> send me an email</a>
+        </div>
+      </div>
+    </section>
+    <!-- END Contact Section -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <a href="#hero" class="back-to-top" aria-label="go back to top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            href="https://www.facebook.com/sivani.pragadaraju/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="facebook"
+          >
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/auror_18/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="instagram"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+  
+          <a
+            href="https://www.linkedin.com/in/sai-divya-sivani-pragadaraju/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="linkedin"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/P-Divya"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="github"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+        <hr />
+      </div>
+    </footer>
+    <!-- END Footer Section -->
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear()
+    </script>
+    <script src="./javascript/vanilla-tilt.min.js"></script>
+    <script type="text/javascript" src="./javascript/valtilt.js"></script>
+  </body>
+</html>
